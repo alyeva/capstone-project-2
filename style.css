@@ -1,0 +1,36 @@
+body {
+    font-family: 'Kiwi Maru', serif;
+    background-color: #FBF9F1;
+}
+
+h1 {
+    font-family: 'Salsa', cursive;
+    color: #756AB6;
+}
+
+h2 {
+    text-align: center;
+    color: #92C7CF;
+}
+
+h3 {
+    color: #92C7CF;
+    text-align: center;
+    font-size: 1.15em;
+}
+
+p {
+    color: #272829;
+    font-size: 15px;
+    font-weight: 550;
+}
+
+.parent {
+    display: grid;
+    grid-template-columns: 0.5fr 1fr;
+    grid-template-rows: repeat(1, 1fr);
+    width: 50%;
+    margin: 100px auto 0 auto;
+    text-align: left;
+    row-gap: 2rem;
+}
